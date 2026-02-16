@@ -56,7 +56,7 @@ async def main():
                 text = f"🎾 {m['p1']} vs {m['p2']}\n{prediction}"
                 await bot.send_message(CHAT_ID, text)
         
-        await asyncio.sleep(900) # Проверка каждые 10 минут
+        await asyncio.sleep(900) # Проверка каждые 15 минут
 
 if __name__ == "__main__":
     asyncio.run(main())
